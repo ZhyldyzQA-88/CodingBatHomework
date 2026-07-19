@@ -2,18 +2,13 @@ package String1;
 
 public class HelloName {
     public static void main(String[] args) {
-
+        System.out.println(helloName("Bob"));
+        System.out.println(helloName("Alice"));
+        System.out.println(helloName("Kate"));
     }
 
     public static String helloName (String name) {
-        String result = "";
-
-        for (int i = 0; i < name.length(); i++) {
-            result = result +name.substring("Code")
-            result = result +name.substring("Developer")
-            result = result +name.substring("Mango")
-
+            return "Hello " + name + "!";
         }
-        return result;
-    }
+
 }
