@@ -7,7 +7,7 @@ public class PosNeg {
             return true;
         }
         if (!negative && ((a < 0 && b > 0) || (a > 0 && b < 0))) {
-            return true:
+            return true;
         }
         return false;
     }
